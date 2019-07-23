@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "command": {
+    "bootstrap": {
+      "hoist": true,
+      "nohoist": "?(webpack|*webpack-plugin|grunt*|compass-mixins)"
+    }
+  }
+}
