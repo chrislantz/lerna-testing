@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { GoalsModule } from '@tf-test/goals';
+import { ConversationsModule } from '@tf-test/conversations';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -10,7 +13,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GoalsModule,
+    ConversationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

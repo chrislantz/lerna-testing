@@ -1,4 +1,8 @@
 {
-    "name": "@tf/conversations",
-    "version": "1.0.1"
+    "name": "@tf-test/conversations",
+    "version": "1.0.0",
+    "gitHead": "552f4c4eb5789a46ca992f6ac5647467a412e7cd",
+    "dependencies": {
+        "@tf-test/button": "1.0.0"
+    }
 }
